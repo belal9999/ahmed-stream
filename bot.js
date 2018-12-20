@@ -5,7 +5,7 @@ client.on('ready', () => {
 });
 
 
-const developers = ["295210953384132618"]
+const developers = ["512336358941917227"]
 const adminprefix = "^";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -32,4 +32,4 @@ client.on('message', message => {
 
 
 
-client.login("Mjk1MjEwOTUzMzg0MTMyNjE4.DvUqdg.uIlBTTdPIUopcOJBrkoQKa99AQc");
+client.login(process.env.BOT_TOKEN);
